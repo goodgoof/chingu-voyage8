@@ -248,3 +248,40 @@ img.top {
     height: 50px;
     background-color: #ffd05a;
 }
+
+/* media queries for responsiveness */
+
+@media only screen and (max-width: 400px ) {
+
+    body {
+        width: 100%;
+        padding: auto;
+        overflow-x: hidden;
+        
+    }
+    .flex, .middle2 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        overflow: hidden;
+        
+    }
+    .containers3 {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+        height: 1000px;
+    }
+
+    #block {
+        width: 100%;
+        margin-right: 30px;
+    margin-left: 30px;
+  
+    }
+
+    .middle2, .middle3 {
+        height: 600px;
+
+    }
+}
